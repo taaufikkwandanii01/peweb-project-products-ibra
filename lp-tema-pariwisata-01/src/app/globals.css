@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "animate.css";
+
+@theme {
+  --color-sand: #fdf6e3;
+  --color-rusty: #a0522d;
+  --color-driftwood: #433422;
+  --animate-spin-slow: spin 8s linear infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: var(--color-sand);
+  --foreground: var(--color-driftwood);
+  --accent-rust: var(--color-rusty);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: "Geist", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Efek tekstur kertas tua untuk overlay */
+.bg-paper-texture {
+  background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+}
+
+.vintage-border {
+  border: 2px solid #8b4513;
+  padding: 5px;
+  box-shadow: 5px 5px 0px var(--color-rusty);
+}
