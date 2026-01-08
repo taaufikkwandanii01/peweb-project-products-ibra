@@ -67,7 +67,7 @@ onUnmounted(() => stopSlideshow());
 <template>
   <section
     id="hero"
-    class="relative w-full h-screen flex items-center justify-center overflow-hidden bg-black"
+    class="relative w-full min-h-screen flex items-center justify-center overflow-hidden bg-black"
   >
     <div class="absolute inset-0 z-0">
       <transition-group
@@ -143,10 +143,12 @@ onUnmounted(() => stopSlideshow());
                 professional photography services.
               </p>
 
-              <div class="flex flex-wrap items-center gap-4">
+              <div
+                class="flex flex-col flex-wrap items-center justify-center gap-4"
+              >
                 <button
                   @click="scrollToContact"
-                  class="group relative px-8 py-4 bg-amber-500 text-white font-semibold rounded-full overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-amber-500/50"
+                  class="group relative px-5 py-4 bg-amber-500 text-white font-semibold rounded-full overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-amber-500/50"
                 >
                   <span class="relative z-10 flex items-center space-x-2">
                     <span>Book a Session</span>
@@ -171,7 +173,7 @@ onUnmounted(() => stopSlideshow());
 
                 <button
                   @click="scrollToGallery"
-                  class="group px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-black transition-all duration-300 flex items-center space-x-2"
+                  class="group px-5 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-black transition-all duration-300 flex items-center space-x-2"
                 >
                   <span>View Portfolio</span>
                 </button>

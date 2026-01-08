@@ -65,7 +65,7 @@ const handleSubmit = async () => {
 </script>
 
 <template>
-  <section id="contact" class="py-20 bg-black relative overflow-hidden">
+  <section id="contact" class="py-35 bg-black relative overflow-hidden">
     <!-- Background Decoration -->
     <div
       class="absolute top-0 left-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl"

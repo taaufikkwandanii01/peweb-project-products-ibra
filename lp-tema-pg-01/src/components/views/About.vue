@@ -32,7 +32,7 @@ const features = [
 </script>
 
 <template>
-  <section id="about" class="py-20 bg-gray-900">
+  <section id="about" class="py-35 bg-gray-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Section Header -->
       <div class="text-center mb-16" data-aos="fade-up">

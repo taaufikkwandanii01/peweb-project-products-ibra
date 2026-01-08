@@ -81,7 +81,7 @@ const services = [
 </script>
 
 <template>
-  <section id="service" class="py-20 bg-black">
+  <section id="service" class="py-35 bg-black">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Section Header -->
       <div class="text-center mb-16" data-aos="fade-up">
